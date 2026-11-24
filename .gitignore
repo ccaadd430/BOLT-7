@@ -1,0 +1,17 @@
+# 构建产物
+build/
+*.apk
+!dist/*.apk
+*.apk.idsig
+*.class
+
+# 签名密钥（首次构建会自动生成，请自行备份，勿提交）
+keystore.jks
+
+# 生成的截图与历史备份
+preview/
+v3_backup/
+
+# 编辑器 / 系统文件
+.codebuddy/
+.DS_Store
